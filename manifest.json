@@ -1,0 +1,41 @@
+{
+  "name": "autocomplete-demo",
+  "version": "0.0.1",
+  "description": "A simple demo for an autocomplete textbox",
+  "author": "Jan Steemann",
+  "license": "Apache 2 License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsteemann/autocomplete-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "cities",
+    "autocomplete"
+  ],
+  "engines": {
+    "arangodb": "2.4"
+  },
+  "controllers": {
+    "/": "demo.js"
+  },
+  "setup": "scripts/setup.js",
+  "assets": {
+    "index.html": {
+      "files": [
+        "assets/index.html"
+      ]
+    },
+    "spinner.gif": {
+      "files": [
+        "assets/spinner.gif"
+      ]
+    },
+    "style.css": {
+      "files": [
+        "assets/style.css"
+      ]
+    }
+  },
+  "lib": "."
+}
